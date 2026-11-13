@@ -1,57 +1,46 @@
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="auro: building autonomous AI agents, automating growth, shipping on AWS"/>
+  <img src="./assets/hero.svg" width="100%" alt="auro: building AI agents for brand marketing. Automate the boring. Ship the bold."/>
+  <br/>
+  <img src="./assets/marquee.svg" width="100%" alt="Instagram · Facebook · LinkedIn · TikTok · YouTube · X · Pinterest · Meta Ads · Google Ads"/>
 </div>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=admin-auro&label=visitors&color=8a6bff&style=flat-square" alt="profile views"/>
-  <img src="https://img.shields.io/badge/status-shipping-00e5c7?style=flat-square" alt="status: shipping"/>
-  <img src="https://img.shields.io/badge/powered%20by-coffee%20%2B%20LLMs-ff5fae?style=flat-square" alt="powered by coffee and LLMs"/>
-</p>
-
-<img src="./assets/title-about.svg" width="100%" alt="About me"/>
-
-<table>
-<tr>
-<td width="68%" valign="middle">
-  <img src="./assets/terminal.svg" width="100%" alt="whoami: I build AI agents, automations and growth engines"/>
-</td>
-<td width="32%" align="center" valign="middle">
-  <img src="./assets/avatar.gif" width="220" alt="animated robot avatar"/>
-  <br/><br/>
-  <sub>🤖 half human, half automation</sub>
-</td>
-</tr>
-</table>
-
-> I like turning repetitive work into software that runs itself. Most days that means wiring
-> large language models to real tools, building pipelines that grow products on autopilot,
-> and deploying it all to the cloud so it never needs a babysitter.
-
-<img src="./assets/title-focus.svg" width="100%" alt="What I work on"/>
-
-<img src="./assets/focus.svg" width="100%" alt="AI agents · Growth engines · Cloud native · Gen media"/>
-
-<img src="./assets/title-stack.svg" width="100%" alt="Toolbox"/>
-
-<p align="center">
-  <a href="#"><img src="https://skillicons.dev/icons?i=python,ts,js,nodejs,react,nextjs,tailwind,fastapi&perline=8" alt="languages and frameworks"/></a>
-  <br/>
-  <a href="#"><img src="https://skillicons.dev/icons?i=aws,docker,postgres,redis,githubactions,vercel,linux,git&perline=8" alt="cloud and infrastructure"/></a>
-</p>
-
-<details>
-<summary><b>✨ How I work</b></summary>
 <br/>
 
-| | |
-|---|---|
-| 🧪 **Prototype fast** | A working demo beats a perfect plan. |
-| 🔁 **Automate the second time** | Doing it twice? Write the script. |
-| 📏 **Measure everything** | If it isn't tracked, it didn't happen. |
-| 🚢 **Ship small, ship often** | Tiny releases, quick feedback, steady progress. |
+<img src="./assets/h-about.svg" width="100%" alt="01 About: half human, half automation."/>
 
-</details>
+<p>
+  <img src="./assets/owl.webp" width="32.4%" alt="A snowy owl under the aurora, blinking"/>
+  <img src="./assets/composer.svg" width="66.6%" alt="An agent brief being typed and run"/>
+</p>
 
-<div align="center">
-  <img src="./assets/footer.svg" width="100%" alt="thanks for dropping by"/>
-</div>
+I build AI agents that take the busywork out of brand marketing. Give them a brief and they research the audience,
+draft on-brand creative, schedule it across every channel, then watch the numbers and move budget to what works.
+The owl is the mascot: quiet, sharp-eyed and on the night shift, just like the agents.
+
+<img src="./assets/h-build.svg" width="100%" alt="02 What I build: agents that do the work."/>
+
+<img src="./assets/bento.svg" width="100%" alt="AI agents that do the work · Creative at scale · Publish everywhere · Optimize while you sleep"/>
+
+<img src="./assets/h-flow.svg" width="100%" alt="03 How it flows: from idea to impact."/>
+
+<img src="./assets/pipeline.svg" width="100%" alt="Spark → Plan → Create → Publish → Optimize"/>
+
+<br/>
+
+<img src="./assets/stats.svg" width="100%" alt="24/7 agents on the night shift · 9 channels on autopilot · 5 stages, idea to impact · 1 brief to get started"/>
+
+<img src="./assets/h-stack.svg" width="100%" alt="04 Toolbox: built with"/>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,ts,nodejs,react,nextjs,tailwind,fastapi,aws&perline=8" alt="Python, TypeScript, Node.js, React, Next.js, Tailwind, FastAPI, AWS"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=docker,postgres,redis,githubactions,vercel,figma,linux,git&perline=8" alt="Docker, Postgres, Redis, GitHub Actions, Vercel, Figma, Linux, Git"/>
+</p>
+
+<br/>
+
+<img src="./assets/banner.svg" width="100%" alt="Night shift, always on. Automate the boring. Ship the bold."/>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=admin-auro&label=visitors&color=0a7efc&style=flat-square" alt="profile views"/>
+</p>

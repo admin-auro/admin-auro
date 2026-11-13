@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150">
+  <defs>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00e5c7"/><stop offset=".5" stop-color="#8a6bff"/><stop offset="1" stop-color="#ff5fae"/>
+  </linearGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="c"><rect width="1200" height="150" rx="20"/></clipPath></defs>
+  <style>
+    .w1 { animation: mv 9s linear infinite; } .w2 { animation: mv 6s linear infinite reverse; }
+    @keyframes mv { to { transform: translateX(-600px) } }
+  </style>
+  <g clip-path="url(#c)">
+    <path class="w1" d="M0 70 Q 150 48 300 70 Q 450 92 600 70 Q 750 48 900 70 Q 1050 92 1200 70 Q 1350 48 1500 70 Q 1650 92 1800 70 Q 1950 48 2100 70 Q 2250 92 2400 70 V150 H0 Z" fill="url(#brand)" opacity=".35"/>
+    <path class="w2" d="M0 90 Q 150 74 300 90 Q 450 106 600 90 Q 750 74 900 90 Q 1050 106 1200 90 Q 1350 74 1500 90 Q 1650 106 1800 90 Q 1950 74 2100 90 Q 2250 106 2400 90 V150 H0 Z" fill="url(#brand)" opacity=".6"/>
+    <text x="600.0" y="132" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="16" fill="#ffffff" opacity=".9">thanks for dropping by · automate the boring, ship the bold ✦</text>
+  </g>
+</svg>

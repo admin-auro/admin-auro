@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+  <defs>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00e5c7"/><stop offset=".5" stop-color="#8a6bff"/><stop offset="1" stop-color="#ff5fae"/>
+  </linearGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0d22"/><stop offset="1" stop-color="#1b0c33"/></linearGradient>
+    <linearGradient id="title" y1="0" y2="0" gradientUnits="userSpaceOnUse" x1="300" x2="900">
+      <stop offset="0" stop-color="#00e5c7"><animate attributeName="stop-color" values="#00e5c7;#8a6bff;#ff5fae;#00e5c7" dur="8s" repeatCount="indefinite"/></stop>
+      <stop offset=".5" stop-color="#8a6bff"><animate attributeName="stop-color" values="#8a6bff;#ff5fae;#00e5c7;#8a6bff" dur="8s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#ff5fae"><animate attributeName="stop-color" values="#ff5fae;#00e5c7;#8a6bff;#ff5fae" dur="8s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <clipPath id="card"><rect width="1200" height="340" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .star { fill:#fff; animation: tw 4s ease-in-out infinite; }
+    @keyframes tw { 0%,100% {opacity:.15} 50% {opacity:.9} }
+    .blob { animation: drift 14s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .b2 { animation-duration: 18s; animation-direction: reverse; }
+    .b3 { animation-duration: 22s; }
+    @keyframes drift { 0%,100% {transform:translate(0,0) scale(1)} 33% {transform:translate(120px,40px) scale(1.2)} 66% {transform:translate(-90px,-30px) scale(.9)} }
+    .blink { animation: bl 1s steps(1) infinite; }
+    @keyframes bl { 50% {opacity:0} }
+    .rise { animation: rise 1.2s cubic-bezier(.2,.8,.2,1) both; }
+    @keyframes rise { from {opacity:0; transform:translateY(18px)} to {opacity:1; transform:none} }
+    .ring { animation: spin 30s linear infinite; transform-origin: 600px 170px; }
+    @keyframes spin { to { transform: rotate(360deg) } }
+    
+    @keyframes t0 { 0% {clip-path:inset(0 100% 0 0)} 10.00% {clip-path:inset(0 0 0 0)}
+      20.62% {clip-path:inset(0 0 0 0)} 23.75% {clip-path:inset(0 100% 0 0)} 100% {clip-path:inset(0 100% 0 0)} }
+    @keyframes c0 { 0% {transform:translateX(0);opacity:1} 10.00% {transform:translateX(452.4px)}
+      20.62% {transform:translateX(452.4px)} 23.75% {transform:translateX(0);opacity:1} 24.69% {opacity:0} 100% {opacity:0} }
+    .t0 { clip-path:inset(0 100% 0 0); animation:t0 16.0s steps(29) 0.0s infinite }
+    .c0 { opacity:0; animation:c0 16.0s steps(29) 0.0s infinite }
+    @keyframes t1 { 0% {clip-path:inset(0 100% 0 0)} 10.00% {clip-path:inset(0 0 0 0)}
+      20.62% {clip-path:inset(0 0 0 0)} 23.75% {clip-path:inset(0 100% 0 0)} 100% {clip-path:inset(0 100% 0 0)} }
+    @keyframes c1 { 0% {transform:translateX(0);opacity:1} 10.00% {transform:translateX(452.4px)}
+      20.62% {transform:translateX(452.4px)} 23.75% {transform:translateX(0);opacity:1} 24.69% {opacity:0} 100% {opacity:0} }
+    .t1 { clip-path:inset(0 100% 0 0); animation:t1 16.0s steps(29) 4.0s infinite }
+    .c1 { opacity:0; animation:c1 16.0s steps(29) 4.0s infinite }
+    @keyframes t2 { 0% {clip-path:inset(0 100% 0 0)} 10.00% {clip-path:inset(0 0 0 0)}
+      20.62% {clip-path:inset(0 0 0 0)} 23.75% {clip-path:inset(0 100% 0 0)} 100% {clip-path:inset(0 100% 0 0)} }
+    @keyframes c2 { 0% {transform:translateX(0);opacity:1} 10.00% {transform:translateX(405.6px)}
+      20.62% {transform:translateX(405.6px)} 23.75% {transform:translateX(0);opacity:1} 24.69% {opacity:0} 100% {opacity:0} }
+    .t2 { clip-path:inset(0 100% 0 0); animation:t2 16.0s steps(26) 8.0s infinite }
+    .c2 { opacity:0; animation:c2 16.0s steps(26) 8.0s infinite }
+    @keyframes t3 { 0% {clip-path:inset(0 100% 0 0)} 10.00% {clip-path:inset(0 0 0 0)}
+      20.62% {clip-path:inset(0 0 0 0)} 23.75% {clip-path:inset(0 100% 0 0)} 100% {clip-path:inset(0 100% 0 0)} }
+    @keyframes c3 { 0% {transform:translateX(0);opacity:1} 10.00% {transform:translateX(421.2px)}
+      20.62% {transform:translateX(421.2px)} 23.75% {transform:translateX(0);opacity:1} 24.69% {opacity:0} 100% {opacity:0} }
+    .t3 { clip-path:inset(0 100% 0 0); animation:t3 16.0s steps(27) 12.0s infinite }
+    .c3 { opacity:0; animation:c3 16.0s steps(27) 12.0s infinite }
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <g filter="url(#blur)" opacity=".75">
+      <circle class="blob" cx="250" cy="120" r="140" fill="#00e5c7" opacity=".55"/>
+      <circle class="blob b2" cx="950" cy="230" r="160" fill="#ff5fae" opacity=".45"/>
+      <circle class="blob b3" cx="620" cy="60" r="130" fill="#8a6bff" opacity=".6"/>
+    </g>
+    <circle class="star" cx="389" cy="51" r="1.5" style="animation-delay:0.19s"/>
+    <circle class="star" cx="986" cy="32" r="1.5" style="animation-delay:0.23s"/>
+    <circle class="star" cx="609" cy="13" r="1.1" style="animation-delay:1.67s"/>
+    <circle class="star" cx="289" cy="187" r="0.8" style="animation-delay:3.31s"/>
+    <circle class="star" cx="149" cy="76" r="1.5" style="animation-delay:2.33s"/>
+    <circle class="star" cx="74" cy="199" r="0.8" style="animation-delay:3.91s"/>
+    <circle class="star" cx="56" cy="292" r="1.1" style="animation-delay:1.68s"/>
+    <circle class="star" cx="649" cy="194" r="1.5" style="animation-delay:3.26s"/>
+    <circle class="star" cx="217" cy="198" r="1.5" style="animation-delay:0.75s"/>
+    <circle class="star" cx="117" cy="242" r="1.5" style="animation-delay:0.24s"/>
+    <circle class="star" cx="247" cy="231" r="1.1" style="animation-delay:3.11s"/>
+    <circle class="star" cx="559" cy="314" r="1.1" style="animation-delay:1.20s"/>
+    <circle class="star" cx="953" cy="238" r="0.8" style="animation-delay:0.33s"/>
+    <circle class="star" cx="360" cy="168" r="1.1" style="animation-delay:2.92s"/>
+    <circle class="star" cx="346" cy="333" r="0.8" style="animation-delay:2.05s"/>
+    <circle class="star" cx="198" cy="116" r="1.1" style="animation-delay:1.69s"/>
+    <circle class="star" cx="1154" cy="26" r="1.5" style="animation-delay:2.29s"/>
+    <circle class="star" cx="1051" cy="107" r="1.5" style="animation-delay:1.40s"/>
+    <circle class="star" cx="596" cy="271" r="0.8" style="animation-delay:3.36s"/>
+    <circle class="star" cx="1134" cy="161" r="1.5" style="animation-delay:0.26s"/>
+    <circle class="star" cx="877" cy="105" r="1.5" style="animation-delay:3.97s"/>
+    <circle class="star" cx="986" cy="97" r="1.1" style="animation-delay:3.55s"/>
+    <circle class="star" cx="416" cy="320" r="1.1" style="animation-delay:0.67s"/>
+    <circle class="star" cx="141" cy="20" r="1.1" style="animation-delay:0.52s"/>
+    <circle class="star" cx="297" cy="133" r="1.1" style="animation-delay:0.32s"/>
+    <circle class="star" cx="539" cy="187" r="0.8" style="animation-delay:3.28s"/>
+    <circle class="star" cx="1037" cy="95" r="1.1" style="animation-delay:3.95s"/>
+    <circle class="star" cx="819" cy="129" r="0.8" style="animation-delay:0.60s"/>
+    <circle class="star" cx="211" cy="79" r="0.8" style="animation-delay:0.05s"/>
+    <circle class="star" cx="997" cy="62" r="1.1" style="animation-delay:0.02s"/>
+    <circle class="star" cx="503" cy="126" r="1.5" style="animation-delay:1.27s"/>
+    <circle class="star" cx="151" cy="292" r="1.5" style="animation-delay:2.62s"/>
+    <circle class="star" cx="888" cy="155" r="1.5" style="animation-delay:3.19s"/>
+    <circle class="star" cx="471" cy="136" r="0.8" style="animation-delay:1.93s"/>
+    <circle class="star" cx="481" cy="65" r="0.8" style="animation-delay:1.76s"/>
+    <circle class="star" cx="132" cy="204" r="0.8" style="animation-delay:0.00s"/>
+    <circle class="star" cx="182" cy="34" r="1.1" style="animation-delay:2.45s"/>
+    <circle class="star" cx="84" cy="71" r="1.1" style="animation-delay:0.59s"/>
+    <circle class="star" cx="303" cy="118" r="1.1" style="animation-delay:1.90s"/>
+    <circle class="star" cx="138" cy="166" r="1.1" style="animation-delay:1.92s"/>
+    <circle class="star" cx="374" cy="49" r="1.5" style="animation-delay:1.37s"/>
+    <circle class="star" cx="318" cy="282" r="0.8" style="animation-delay:2.07s"/>
+    <circle class="star" cx="246" cy="324" r="1.1" style="animation-delay:0.59s"/>
+    <circle class="star" cx="652" cy="9" r="1.5" style="animation-delay:1.19s"/>
+    <circle class="star" cx="772" cy="31" r="1.1" style="animation-delay:2.07s"/>
+    <circle class="star" cx="1090" cy="121" r="0.8" style="animation-delay:2.13s"/>
+    <circle class="star" cx="935" cy="112" r="0.8" style="animation-delay:2.45s"/>
+    <circle class="star" cx="946" cy="258" r="0.8" style="animation-delay:3.22s"/>
+    <circle class="star" cx="982" cy="252" r="0.8" style="animation-delay:0.80s"/>
+    <circle class="star" cx="591" cy="249" r="0.8" style="animation-delay:3.16s"/>
+    <circle class="star" cx="567" cy="66" r="1.5" style="animation-delay:3.83s"/>
+    <circle class="star" cx="537" cy="319" r="1.1" style="animation-delay:3.82s"/>
+    <circle class="star" cx="438" cy="75" r="0.8" style="animation-delay:1.88s"/>
+    <circle class="star" cx="405" cy="164" r="1.5" style="animation-delay:3.36s"/>
+    <circle class="star" cx="575" cy="222" r="1.5" style="animation-delay:0.34s"/>
+    <circle class="star" cx="793" cy="309" r="1.5" style="animation-delay:3.00s"/>
+    <circle class="star" cx="574" cy="61" r="1.5" style="animation-delay:1.33s"/>
+    <circle class="star" cx="961" cy="330" r="1.1" style="animation-delay:1.85s"/>
+    <circle class="star" cx="892" cy="29" r="0.8" style="animation-delay:0.68s"/>
+    <circle class="star" cx="152" cy="51" r="1.1" style="animation-delay:3.23s"/>
+    <circle class="star" cx="175" cy="281" r="1.1" style="animation-delay:2.63s"/>
+    <circle class="star" cx="420" cy="187" r="0.8" style="animation-delay:0.09s"/>
+    <circle class="star" cx="959" cy="247" r="0.8" style="animation-delay:2.11s"/>
+    <circle class="star" cx="1120" cy="147" r="0.8" style="animation-delay:3.30s"/>
+    <circle class="star" cx="253" cy="86" r="1.1" style="animation-delay:2.00s"/>
+    <circle class="star" cx="916" cy="111" r="1.5" style="animation-delay:1.68s"/>
+    <circle class="star" cx="157" cy="309" r="1.1" style="animation-delay:3.59s"/>
+    <circle class="star" cx="795" cy="277" r="1.5" style="animation-delay:1.68s"/>
+    <circle class="star" cx="1101" cy="171" r="1.5" style="animation-delay:0.61s"/>
+    <circle class="star" cx="613" cy="297" r="0.8" style="animation-delay:2.43s"/>
+    <g class="ring" opacity=".25" fill="none" stroke="url(#brand)">
+      <ellipse cx="600" cy="170" rx="470" ry="150" stroke-width="1.2" stroke-dasharray="4 10"/>
+    </g>
+    <g class="rise">
+      <text x="600" y="168" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800" font-size="118" letter-spacing="-4" fill="url(#title)" filter="url(#glow)">auro</text>
+      <text x="600" y="206" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="15" letter-spacing="6" fill="#9aa3c7">BUILDER · AUTOMATOR · SHIPPER</text>
+    </g>
+    <text x="358.2" y="262" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="26" fill="#ff5fae">&gt;</text>
+    
+    <text class="t0" x="389.4" y="262" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="26" fill="#dfe6ff">building autonomous AI agents</text>
+    <g class="c0"><rect class="blink" x="391.4" y="240" width="3" height="28" fill="#00e5c7"/></g>
+    <text class="t1" x="389.4" y="262" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="26" fill="#dfe6ff">automating growth &amp; marketing</text>
+    <g class="c1"><rect class="blink" x="391.4" y="240" width="3" height="28" fill="#00e5c7"/></g>
+    <text class="t2" x="389.4" y="262" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="26" fill="#dfe6ff">shipping serverless on AWS</text>
+    <g class="c2"><rect class="blink" x="391.4" y="240" width="3" height="28" fill="#00e5c7"/></g>
+    <text class="t3" x="389.4" y="262" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="26" fill="#dfe6ff">turning ideas into products</text>
+    <g class="c3"><rect class="blink" x="391.4" y="240" width="3" height="28" fill="#00e5c7"/></g>
+    <rect x="1" y="1" width="1198" height="338" rx="21" fill="none" stroke="url(#brand)" stroke-opacity=".5" stroke-width="2"/>
+  </g>
+</svg>
